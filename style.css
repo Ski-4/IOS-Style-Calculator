@@ -33,15 +33,16 @@ html,body {
 
 .main-body {
     height: 100%;
-    display: grid;
-    grid-template-rows: 0.7fr 1fr;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: 0.7fr 1fr; */
     margin: 0 1rem;
 }
 
 .buttons {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 0rem;
+    gap: 1rem;
     margin-bottom: 1.5rem;
 }
 
